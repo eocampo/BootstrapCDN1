@@ -90,6 +90,7 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml">
       <SubType>Code</SubType>
@@ -101,6 +102,7 @@
     <Content Include="Views\_ViewStart.cshtml">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,7 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
